@@ -1,0 +1,127 @@
+.box {
+  margin: auto;
+  max-width: 700px;
+  /* Box Ctrl */
+  /* Box Scene */
+}
+
+.box .box-ctrl {
+  position: relative;
+  top: 14px;
+  height: 30px;
+  width: 160px;
+  max-width: 100%;
+  margin: auto;
+  background: white;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: auto;
+}
+
+.box .box-ctrl div {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.box .box-ctrl .link {
+  margin-right: 0;
+}
+
+.box .box-scene {
+  width: 100%;
+  border: 1px solid rgba(122, 122, 122, 0.493);
+  border-radius: .2rem;
+  position: relative;
+  top: -5px;
+  padding: 25px 10px 10px 10px;
+}
+
+.box .box-scene .scene-area {
+  margin: auto;
+  max-width: 100%;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.box .box-scene .scene-area > * {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.box .box-scene .scene-area.sm {
+  width: 300px;
+}
+
+.box .box-scene .scene-area.md {
+  width: 500px;
+}
+
+.box .box-scene .scene-area.lg {
+  width: 700px;
+}
+
+/******************
+      Nav-1
+******************/
+.nav-1 {
+  width: 100%;
+  max-width: 100%;
+  background: #1487e6;
+}
+
+.nav-1 .toggle {
+  width: 100%;
+  padding: 10px 20px;
+  background: #0e3fa8;
+  text-align: right;
+  color: #fff;
+  display: none;
+  cursor: pointer;
+}
+
+.nav-1 ul {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav-1 ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav-1 ul li:hover {
+  background: #dd1b5c;
+}
+
+.nav-1 ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sm .nav-1 .toggle, .md .nav-1 .toggle {
+  display: block;
+}
+
+.sm .nav-1 ul, .md .nav-1 ul {
+  width: 100%;
+  display: none;
+}
+
+.sm .nav-1 ul li, .md .nav-1 ul li {
+  display: block;
+  text-align: center;
+}
+
+.sm .nav-1 .active, .md .nav-1 .active {
+  display: block;
+}
+
+.sm .nav-1 svg .path-2, .md .nav-1 svg .path-2 {
+  fill: #fff;
+}
+/*# sourceMappingURL=nav-bars.css.map */

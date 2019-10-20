@@ -1,0 +1,127 @@
+
+.box {
+    margin: auto;
+    max-width: 700px;
+    
+    /* Box Ctrl */
+    .box-ctrl {
+        position: relative;
+        top: 14px;
+        height: 30px;
+        width: 160px;
+        max-width: 100%;
+        margin: auto;
+        background: rgb(255, 255, 255);
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        padding: auto;
+        
+        div{
+            margin-right: 15px;
+            cursor: pointer;
+        }
+
+        .link {
+            margin-right: 0;
+        }
+    }
+
+    /* Box Scene */
+    .box-scene {
+        width: 100%;
+        border: 1px solid rgba(122, 122, 122, 0.493);
+        border-radius: .2rem;
+        position: relative;
+        top: -5px;
+        padding: 25px 10px 10px 10px;
+
+        .scene-area {
+            margin: auto;
+            max-width: 100%;
+            transition: all 1s ease-in-out;
+        }
+        .scene-area > *{
+            transition: all 1s ease-in-out;
+        }
+
+        .scene-area.sm {
+            width: 300px
+        }
+        .scene-area.md {
+            width: 500px
+        }
+        .scene-area.lg {
+            width: 700px
+        }
+    }
+
+}
+
+
+
+
+/******************
+      Nav-1
+******************/
+.nav-1 {
+    width: 100%;
+    max-width: 100%;
+    background: rgb(20, 135, 230);
+   
+    .toggle {
+        width: 100%;
+        padding: 10px 20px;
+        background: rgb(14, 63, 168);
+        text-align: right;
+        color: #fff;
+        display: none;
+        cursor: pointer;
+    }
+    ul{
+        width: 80%;
+        margin: 0 auto;
+
+        li{
+            display: inline-block;
+            padding: 20px;
+        }
+
+        li:hover{
+            background: rgb(221, 27, 92);
+        }
+
+        li a{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+    
+}
+
+.sm, .md{
+    .nav-1{
+        .toggle{
+            display: block;
+        }
+    
+        ul {
+            width: 100%;
+            display: none;
+            
+            li{
+                display: block;
+                text-align: center;
+            }
+        }
+        .active {
+            display: block;
+        }
+        
+        svg .path-2 {
+            fill: #fff;
+        }
+
+    }
+}
