@@ -28,6 +28,12 @@
   cursor: pointer;
 }
 
+.box .box-ctrl div :hover {
+  fill: #0ad3c9;
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+
 .box .box-ctrl .link {
   margin-right: 0;
 }
@@ -44,11 +50,6 @@
 .box .box-scene .scene-area {
   margin: auto;
   max-width: 100%;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-
-.box .box-scene .scene-area > * {
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
@@ -71,13 +72,13 @@
 .nav-1 {
   width: 100%;
   max-width: 100%;
-  background: #1487e6;
+  background: #09c2e2;
 }
 
 .nav-1 .toggle {
   width: 100%;
-  padding: 10px 20px;
-  background: #0e3fa8;
+  padding: 5px 10px;
+  background: #1ac3e0;
   text-align: right;
   color: #fff;
   display: none;

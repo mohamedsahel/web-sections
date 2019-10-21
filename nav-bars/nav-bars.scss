@@ -20,6 +20,12 @@
         div{
             margin-right: 15px;
             cursor: pointer;
+
+            :hover {
+               fill: rgb(10, 211, 201); 
+               transform: scale(1.08);
+            }
+
         }
 
         .link {
@@ -39,9 +45,6 @@
         .scene-area {
             margin: auto;
             max-width: 100%;
-            transition: all 1s ease-in-out;
-        }
-        .scene-area > *{
             transition: all 1s ease-in-out;
         }
 
@@ -67,12 +70,12 @@
 .nav-1 {
     width: 100%;
     max-width: 100%;
-    background: rgb(20, 135, 230);
+    background: rgb(9, 194, 226);
    
     .toggle {
         width: 100%;
-        padding: 10px 20px;
-        background: rgb(14, 63, 168);
+        padding: 5px 10px;
+        background: rgb(26, 195, 224);
         text-align: right;
         color: #fff;
         display: none;
