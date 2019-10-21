@@ -71,6 +71,7 @@
     width: 100%;
     max-width: 100%;
     background: rgb(9, 194, 226);
+    border-radius: .6rem;
    
     .toggle {
         width: 100%;
@@ -78,8 +79,9 @@
         background: rgb(26, 195, 224);
         text-align: right;
         color: #fff;
-        display: none;
         cursor: pointer;
+        border-radius: 10px;
+        display: none;
     }
     ul{
         width: 80%;

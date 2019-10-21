@@ -73,6 +73,7 @@
   width: 100%;
   max-width: 100%;
   background: #09c2e2;
+  border-radius: .6rem;
 }
 
 .nav-1 .toggle {
@@ -81,8 +82,9 @@
   background: #1ac3e0;
   text-align: right;
   color: #fff;
-  display: none;
   cursor: pointer;
+  border-radius: 10px;
+  display: none;
 }
 
 .nav-1 ul {
